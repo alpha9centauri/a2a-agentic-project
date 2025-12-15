@@ -1,0 +1,11 @@
+[project]
+name = "mark-agent"
+version = "0.1.0"
+description = "CrewAI participant agent for A2A badminton scheduling"
+requires-python = ">=3.11"
+dependencies = [
+    "a2a-sdk>=0.3.11",
+    "crewai[google-genai]>=1.4.1",
+    "python-dotenv>=1.2.1",
+    "uvicorn>=0.30.0",
+]
